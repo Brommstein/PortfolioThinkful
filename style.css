@@ -1,8 +1,52 @@
+/* Centering the parts that look best centered */
+h1, h2, h4, p{
+  text-align: center;
+  color: #011627;
+}
+/* Adjusting all the font sizes and looks */
+h1, h2, h3, h4, p, li{
+  font-family:'Comic Sans MS';
+}
 h1{
+  font-size: 46px;
 }
 h2{
+  font-size: 30px;
 }
 h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 26px;
 }
 p{
+  font-size: 18px;
+}
+/* Adding color to the links */
+a{
+  color: rgb(80, 116, 52);
+}
+a:visited, a:hover, a:active{
+  color: #f4442eff;
+}
+/* Modifing the picture of myself */
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 45%;
+}
+body{
+  background-color: #f9f8f8ff;
+}
+/* Making color'ed areas look better */
+header{
+  height: 24mm;
+  padding: 10mm;
+  background-color: #bbb5bdff;
+}
+footer{
+  height: 10mm;
+  background-color: #bbb5bdff;
 }
