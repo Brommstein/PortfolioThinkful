@@ -74,6 +74,10 @@ main #about .item{
   margin: 20px;
   padding: 6px 12px;
 }
+main #about .item ul{
+  margin: 0;
+  padding: 0;
+}
 main fieldset{
   width: 400px;
   text-align: center;
@@ -93,6 +97,13 @@ main fieldset{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 45%;
+}
+.centerList{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   border-radius: 45%;
 }
 .centerMap{
@@ -147,6 +158,11 @@ footer{
     padding: 6px 12px;
     border-radius: 6px;
     border: 2px solid black;
+  }
+  main #about .itemList{
+    list-style: none;
+    text-align: center;
+    margin: auto;
   }
   main fieldset{
     margin: 16px 20px;
