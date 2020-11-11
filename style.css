@@ -83,7 +83,7 @@ main #about .item ul{
 }
 main fieldset{
   text-align: center;
-  margin: auto;
+  margin: 100px;
   margin-bottom: 16px;
 }
 .group{
