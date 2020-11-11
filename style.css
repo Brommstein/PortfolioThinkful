@@ -27,7 +27,7 @@ h2, h3, h4, p{
   color: #011627;
 }
 .wrapper{
-  width: screen;
+  width: 100%;
 }
 
 /* Header section */
@@ -82,7 +82,6 @@ main #about .item ul{
   padding: 0;
 }
 main fieldset{
-  width: 400px;
   text-align: center;
   margin: auto;
   margin-bottom: 16px;
